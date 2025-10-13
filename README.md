@@ -1,15 +1,30 @@
 # RealQuo.jl
 
-**RealQuo.jl** is a Julia package for studying the topology and contractibility of real toric varieties arising from Weyl polytopes.
+*a Julia package for studying the topology and contractibility of real toric varieties arising from Weyl polytopes.*
 
-## Installation
+---
 
-Activate and instantiate the package locally using Julia's package manager:
+## ✨ Overview
+
+`WeylToric.jl` provides computational tools for analyzing **toric varieties** and their **real loci** that are associated with **Weyl polytopes** of root systems.  
+It implements algebraic and topological constructions that appear in the study of reflection groups, orbit decompositions, and the contractibility phenomena of real toric varieties.
+
+The package is designed for use in research on:
+- Coxeter groups and their reflection arrangements  
+- Toric geometry from root systems  
+- Topological and combinatorial invariants of real algebraic varieties  
+
+---
+
+## ⚙️ Installation
+
+You can install the package directly from GitHub:
 
 ```julia
-] activate .
-] instantiate
-```
+julia> ]
+pkg> add https://github.com/<yourusername>/WeylToric.jl
+
+
 
 ## Usage
 
