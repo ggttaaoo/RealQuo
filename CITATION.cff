@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "RealQuo.jl: A Julia package for quotients of  real toric permutohedron varieties"
+authors:
+  - family-names: "Crowley"
+    given-names: "Colin"
+  - family-names: "Gong"
+    given-names: "Tao"
+  - family-names: "Simpson"
+    given-names: "Conner"
+repository-code: "https://github.com/ggttaaoo/RealQuo"
+version: "0.1.0"
+date-released: "2025-10-13"
+license: "MIT"
+preferred-citation:
+  type: software
+  title: "RealQuo.jl: A Julia package for real toric varieties and Weyl polytopes"
+  authors:
+    - family-names: "Crowley"
+      given-names: "Colin"
+    - family-names: "Gong"
+      given-names: "Tao"
+    - family-names: "Simpson"
+      given-names: "Conner"
+  url: "https://github.com/ggttaaoo/RealQuo"
+  version: "0.1.0"
+  date-released: "2025-10-13"
