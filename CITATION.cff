@@ -14,7 +14,7 @@ date-released: "2025-10-13"
 license: "MIT"
 preferred-citation:
   type: software
-  title: "RealQuo.jl: A Julia package for real toric varieties and Weyl polytopes"
+  title: "RealQuo.jl: A Julia package for quotients of  real toric permutohedron varieties"
   authors:
     - family-names: "Crowley"
       given-names: "Colin"
