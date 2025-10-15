@@ -11,16 +11,20 @@
 **For a theoretic background see [arXiv:2410.14653](https://arxiv.org/abs/2410.14653).** The quotient $Y/W$ is homeomorphic to a union of cubes $[0,1]^r$, indexed by $(\mathbb{Z}/2)^r$, glued along proper faces. Following a gluing order, each cube, index by $u\in(\mathbb{Z}/2)^r\setminus (1,1,\ldots,1)$, has the glued space $\mathrm{G}_u$. If each $\mathrm{G}_u$ is contractible, then $Y/W$ is contractible.
 
 #### Celluar structure
-$$Y/W=\bigcup_{u\in (\mathbb{Z}/2)^r}\{u\}\times [0,1]^r.$$
+```math
+Y/W=\bigcup_{u\in (\mathbb{Z}/2)^r}\{u\}\times [0,1]^r.
+```
 
 #### Gluing step
-$$Z=\{(1,1,\ldots,1)\}\times [0,1]^r, \quad Z_u=Z_{v}\bigcup_{\mathrm{G}_u}\{u\}\times [0,1]^r.$$
+```math
+Z=\{(1,1,\ldots,1)\}\times [0,1]^r, \quad Z_u=Z_{v}\bigcup_{\mathrm{G}_u}\{u\}\times [0,1]^r.
+```
 
 
 ---
 
 ## Installation
-Download and install [Julia](https://julialang.org/downloads/). There are two methods for installing this package, of which **Method 1** may require Account and password.
+Download and install [Julia](https://julialang.org/downloads/). There are two methods for installing this package, of which **Method 1** may require Account and Password.
 
 #### Method 1
  In the REPL (Julia's interactive command-line), copy-paste and run the below:
@@ -100,7 +104,9 @@ The vector `[1,0,1]` has its first two coordinates representing the index vector
 
 The vector`[(Int64[], [2]), ([1], Int64[])]]` remembers the components of the glued subspace $\mathbf{G}_{(1,0)}$. One component `(Int64[], [2])` is a face of the square $[0,1]^2$, where the first position `Int64[]` remembers which coordinates of the face being $0$, and the second position `[2]` remembers which coordinates of the face being $1$.
 So we have
-$$\mathbf{G}_{(1,0)}=[0,1]\times \{1\}\bigcup \{0\}\times [0,1].$$
+```math
+\mathbf{G}_{(1,0)}=[0,1]\times \{1\}\bigcup \{0\}\times [0,1].
+```
 
 ***Explanation for `ca2`***
 
