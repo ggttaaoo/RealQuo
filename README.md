@@ -116,7 +116,7 @@ In the second element
 ```
 Any[Any[1, 0, 1], "trivial"]
 ```
-The vector `[1,0,1]` represents the index vector $(1,0)$. `"trivial"` means the $\mathbf{G}_u$ is contractible.
+The vector `[1,0,1]` represents the index vector $(1,0)$. `"trivial"` means the $\mathbf{G}_{(1,0)}$ is contractible.
 
 
 **A trick**
